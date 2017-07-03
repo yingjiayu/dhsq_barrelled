@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="barrelled_core" />
+        <module name="barrelled_service_wechat" />
+        <module name="dhsq_core" />
+        <module name="dhsq_service_wechat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="barrelled_core" target="1.7" />
+      <module name="barrelled_service_wechat" target="1.7" />
+      <module name="dhsq_core" target="1.7" />
+      <module name="dhsq_service_wechat" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../barrelled_core/barrelled_core.iml" filepath="$PROJECT_DIR$/../barrelled_core/barrelled_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/barrelled_service_wechat.iml" filepath="$PROJECT_DIR$/barrelled_service_wechat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhsq_core/dhsq_core.iml" filepath="$PROJECT_DIR$/../dhsq_core/dhsq_core.iml" />
+    </modules>
+  </component>
+</project>
