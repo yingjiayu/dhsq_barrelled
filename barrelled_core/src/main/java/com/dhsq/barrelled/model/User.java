@@ -4,22 +4,27 @@ package com.dhsq.barrelled.model;
  * Created by jerry on 2017/7/2.
  */
 public class User {
-    private Integer Id;
-    private String Name;
+    private Integer id;
+    private String name;
 
     public Integer getId() {
-        return Id;
+        return id;
     }
 
     public void setId(Integer id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
+    }
+
+    public User (Integer id, String name){
+        this.id =id;
+        this.name =name;
     }
 }

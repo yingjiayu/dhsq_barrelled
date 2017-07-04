@@ -7,7 +7,6 @@ import java.util.List;
 /**
  * Created by jerry on 2017/7/2.
  */
-public interface UserMapper {
-    List<User> getAllUser();
-    int editUser(User user);
+public interface UserMapperSec {
+    int insertUser(User user);
 }

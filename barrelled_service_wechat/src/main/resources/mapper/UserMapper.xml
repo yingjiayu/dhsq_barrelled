@@ -4,4 +4,13 @@
     <select id="getAllUser" resultType="com.dhsq.barrelled.model.User">
         select * from dhsq.user;
     </select>
+    <update id="editUser" parameterType="com.dhsq.barrelled.model.User">
+        update user
+        <set>
+        <if test="name!=null">
+            name =#{name}
+        </if>
+    </set>
+        where id=#{id}
+    </update>
 </mapper>

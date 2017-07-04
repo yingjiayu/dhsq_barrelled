@@ -7,7 +7,6 @@ import java.util.List;
 /**
  * Created by jerry on 2017/7/2.
  */
-public interface UserService{
-    public List<User> getAll();
-    int editUser(User user) throws Exception;
+public interface UserServiceSec {
+    int insertUser(User user);
 }
